@@ -1,0 +1,126 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\RPL 3_24\Documents\NetBeansProjects\PencatatanPemilu\src\Pemilu.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\RPL 3_24\Documents\NetBeansProjects\PencatatanPemilu\src\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.004.000
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\;C:\Users\RPL 3_24\AppData\Local\Microsoft\WindowsApps;C:\Users\RPL 3_24\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RPL 3_24\AppData\Roaming\npm;C:\Users\RPL 3_24\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\WebStorm 2023.3.4\bin;C:\Program Files\Neovim\bin;C:\Program Files (x86)\Java\jre1.8.0_74\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\;C:\Users\RPL 3_24\AppData\Local\Microsoft\WindowsApps;C:\Users\RPL 3_24\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RPL 3_24\AppData\Roaming\npm;C:\Users\RPL 3_24\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\WebStorm 2023.3.4\bin;C:\Program Files\Neovim\bin;C:\Program Files (x86)\Java\jre1.8.0_74\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\xampp\php\bin\javaw.exe (not found)
+Check launcher:	C:\composer\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\chocolatey\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Roaming\Composer\vendor\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\WebStorm 2023.3.4\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Neovim\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_74\bin\javaw.exe (OK)
+Version string: 1.008.000_074 / 32-Bit (OK)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_74\bin\javaw.exe
+Launcher args:	-jar "C:\Users\RPL 3_24\Documents\NetBeansProjects\PencatatanPemilu\src\Pemilu.exe"
+Args length:	83/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\RPL 3_24\Documents\NetBeansProjects\PencatatanPemilu\src\Pemilu.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\RPL 3_24\Documents\NetBeansProjects\PencatatanPemilu\src\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.004.000
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\;C:\Users\RPL 3_24\AppData\Local\Microsoft\WindowsApps;C:\Users\RPL 3_24\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RPL 3_24\AppData\Roaming\npm;C:\Users\RPL 3_24\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\WebStorm 2023.3.4\bin;C:\Program Files\Neovim\bin;C:\Program Files (x86)\Java\jre1.8.0_74\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\;C:\Users\RPL 3_24\AppData\Local\Microsoft\WindowsApps;C:\Users\RPL 3_24\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RPL 3_24\AppData\Roaming\npm;C:\Users\RPL 3_24\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\WebStorm 2023.3.4\bin;C:\Program Files\Neovim\bin;C:\Program Files (x86)\Java\jre1.8.0_74\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\xampp\php\bin\javaw.exe (not found)
+Check launcher:	C:\composer\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\chocolatey\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Roaming\Composer\vendor\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\WebStorm 2023.3.4\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Neovim\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_74\bin\javaw.exe (OK)
+Version string: 1.008.000_074 / 32-Bit (OK)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_74\bin\javaw.exe
+Launcher args:	-jar "C:\Users\RPL 3_24\Documents\NetBeansProjects\PencatatanPemilu\src\Pemil
+
+Version:	3.50
+CmdLine:	C:\Users\RPL 3_24\Documents\NetBeansProjects\PencatatanPemilu\src\Pemilu.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\RPL 3_24\Documents\NetBeansProjects\PencatatanPemilu\src\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.004.000
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\;C:\Users\RPL 3_24\AppData\Local\Microsoft\WindowsApps;C:\Users\RPL 3_24\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RPL 3_24\AppData\Roaming\npm;C:\Users\RPL 3_24\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\WebStorm 2023.3.4\bin;C:\Program Files\Neovim\bin;C:\Program Files (x86)\Java\jre1.8.0_74\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\;C:\Users\RPL 3_24\AppData\Local\Microsoft\WindowsApps;C:\Users\RPL 3_24\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RPL 3_24\AppData\Roaming\npm;C:\Users\RPL 3_24\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\WebStorm 2023.3.4\bin;C:\Program Files\Neovim\bin;C:\Program Files (x86)\Java\jre1.8.0_74\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\xampp\php\bin\javaw.exe (not found)
+Check launcher:	C:\composer\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\chocolatey\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Programs\Python\Python312\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Users\RPL 3_24\AppData\Roaming\Composer\vendor\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\WebStorm 2023.3.4\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Neovim\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_74\bin\javaw.exe (OK)
+Version string: 1.008.000_074 / 32-Bit (OK)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_74\bin\javaw.exe
+Launcher args:	-jar "C:\Users\RPL 3_24\Documents\NetBeansProjects\PencatatanPemilu\src\Pemilu.exe"
+Args length:	83/32768 chars
+Exit code:	0
+u.exe"
+Args length:	83/32768 chars
+Exit code:	0
