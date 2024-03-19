@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
   </Properties>
@@ -70,23 +70,21 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="j01ProvinceField" alignment="1" min="-2" pref="192" max="-2" attributes="0"/>
                               <Component id="j01CountField" alignment="1" min="-2" pref="192" max="-2" attributes="0"/>
-                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
                                       <Component id="j01ClearButton" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
                                       <Component id="j01DeleteButton" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="j01EditButton" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="j01SaveButton" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="j01PersenField" min="-2" pref="192" max="-2" attributes="0"/>
-                                      </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="j01EditButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="j01SaveButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="j01PersenField" min="-2" pref="192" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="103" alignment="1" groupAlignment="0" attributes="0">
@@ -99,10 +97,10 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="j02EditButton" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
                                       <Component id="j02ClearButton" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
                                       <Component id="j02DeleteButton" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="103" alignment="1" groupAlignment="0" attributes="0">
@@ -248,8 +246,10 @@
                       <Component id="j03DeleteButton" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Component id="j03ClearButton" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Component id="j02DeleteButton" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="j01DeleteButton" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="j02ClearButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="j02ClearButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="j01DeleteButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                       <Component id="j01ClearButton" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
@@ -339,6 +339,9 @@
                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable01MouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -358,10 +361,32 @@
                     <Column editable="true" title="Persentase" type="java.lang.Object"/>
                   </Table>
                 </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable03MouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -404,6 +429,9 @@
                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable02MouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -466,7 +494,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="j03ClearButton">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Bersihkan Kolom"/>
+            <Property name="text" type="java.lang.String" value="Bersihkan Tabel"/>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="j03ClearButtonMouseClicked"/>
@@ -512,7 +540,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="j02ClearButton">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Bersihkan Kolom"/>
+            <Property name="text" type="java.lang.String" value="Bersihkan Tabel"/>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="j02ClearButtonMouseClicked"/>
@@ -548,7 +576,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="j01ClearButton">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Bersihkan Kolom"/>
+            <Property name="text" type="java.lang.String" value="Bersihkan Tabel"/>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="j01ClearButtonMouseClicked"/>

@@ -99,6 +99,11 @@ public class Pemilu extends javax.swing.JFrame {
                 "Provinsi", "Jml Suara", "Persentase"
             }
         ));
+        jTable01.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTable01MouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(jTable01);
 
         jTable03.setModel(new javax.swing.table.DefaultTableModel(
@@ -109,6 +114,11 @@ public class Pemilu extends javax.swing.JFrame {
                 "Provinsi", "Jml Suara", "Persentase"
             }
         ));
+        jTable03.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTable03MouseClicked(evt);
+            }
+        });
         jScrollPane2.setViewportView(jTable03);
 
         jTable02.setModel(new javax.swing.table.DefaultTableModel(
@@ -119,6 +129,11 @@ public class Pemilu extends javax.swing.JFrame {
                 "Provinsi", "Jml Suara", "Persentase"
             }
         ));
+        jTable02.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTable02MouseClicked(evt);
+            }
+        });
         jScrollPane3.setViewportView(jTable02);
 
         j02PersenField.addActionListener(new java.awt.event.ActionListener() {
@@ -166,7 +181,7 @@ public class Pemilu extends javax.swing.JFrame {
             }
         });
 
-        j03ClearButton.setText("Bersihkan Kolom");
+        j03ClearButton.setText("Bersihkan Tabel");
         j03ClearButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 j03ClearButtonMouseClicked(evt);
@@ -199,7 +214,7 @@ public class Pemilu extends javax.swing.JFrame {
             }
         });
 
-        j02ClearButton.setText("Bersihkan Kolom");
+        j02ClearButton.setText("Bersihkan Tabel");
         j02ClearButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 j02ClearButtonMouseClicked(evt);
@@ -222,7 +237,7 @@ public class Pemilu extends javax.swing.JFrame {
             }
         });
 
-        j01ClearButton.setText("Bersihkan Kolom");
+        j01ClearButton.setText("Bersihkan Tabel");
         j01ClearButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 j01ClearButtonMouseClicked(evt);
@@ -275,20 +290,19 @@ public class Pemilu extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(j01ProvinceField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(j01CountField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addGroup(jPanel1Layout.createSequentialGroup()
                                     .addComponent(j01ClearButton)
-                                    .addGap(75, 75, 75)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(j01DeleteButton))
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                        .addComponent(j01EditButton)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(j01SaveButton))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                        .addComponent(jLabel17)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(j01PersenField, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                    .addComponent(j01EditButton)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(j01SaveButton))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                    .addComponent(jLabel17)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(j01PersenField, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jLabel15)
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 266, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -297,10 +311,10 @@ public class Pemilu extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel10)
                             .addComponent(j02EditButton)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                 .addGroup(jPanel1Layout.createSequentialGroup()
                                     .addComponent(j02ClearButton)
-                                    .addGap(103, 103, 103)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(j02DeleteButton))
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -409,8 +423,9 @@ public class Pemilu extends javax.swing.JFrame {
                     .addComponent(j03DeleteButton)
                     .addComponent(j03ClearButton)
                     .addComponent(j02DeleteButton)
-                    .addComponent(j01DeleteButton)
-                    .addComponent(j02ClearButton)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(j02ClearButton)
+                        .addComponent(j01DeleteButton))
                     .addComponent(j01ClearButton))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jExitButton)
@@ -449,9 +464,9 @@ public class Pemilu extends javax.swing.JFrame {
 
     private void j03ClearButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j03ClearButtonMouseClicked
         // TODO add your handling code here:
-        j03ProvinceField.setText("");
-        j03CountField.setText("");
-        j03PersenField.setText("");
+        DefaultTableModel dataModel = (DefaultTableModel) jTable01.getModel();
+        dataModel.setRowCount(0);
+        revalidate();
     }//GEN-LAST:event_j03ClearButtonMouseClicked
 
     private void j03CountFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j03CountFieldActionPerformed
@@ -460,20 +475,21 @@ public class Pemilu extends javax.swing.JFrame {
 
     private void j02ClearButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j02ClearButtonMouseClicked
         // TODO add your handling code here:
-        j02ProvinceField.setText("");
-        j02CountField.setText("");
-        j02PersenField.setText("");
+        DefaultTableModel dataModel = (DefaultTableModel) jTable01.getModel();
+        dataModel.setRowCount(0);
+        revalidate();
     }//GEN-LAST:event_j02ClearButtonMouseClicked
 
     private void j02ClearButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j02ClearButtonMouseEntered
         // TODO add your handlincode here:
+        
     }//GEN-LAST:event_j02ClearButtonMouseEntered
 
     private void j01ClearButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j01ClearButtonMouseClicked
         // TODO add your handling code here:
-        j01ProvinceField.setText("");
-        j01CountField.setText("");
-        j01PersenField.setText("");
+        DefaultTableModel dataModel = (DefaultTableModel) jTable01.getModel();
+        dataModel.setRowCount(0);
+        revalidate();
     }//GEN-LAST:event_j01ClearButtonMouseClicked
 
     private void j01SaveButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j01SaveButtonMouseClicked
@@ -485,6 +501,9 @@ public class Pemilu extends javax.swing.JFrame {
         list.add(j01CountField.getText());
         list.add(j01PersenField.getText());
         dataModel.addRow(list.toArray());
+        j01ProvinceField.setText("");
+        j01CountField.setText("");
+        j01PersenField.setText("");
     }//GEN-LAST:event_j01SaveButtonMouseClicked
 
     private void j01DeleteButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j01DeleteButtonMouseClicked
@@ -535,6 +554,9 @@ public class Pemilu extends javax.swing.JFrame {
         list.add(j02CountField.getText());
         list.add(j02PersenField.getText());
         dataModel.addRow(list.toArray());
+        j02ProvinceField.setText("");
+        j02CountField.setText("");
+        j02PersenField.setText("");
     }//GEN-LAST:event_j02SaveButtonMouseClicked
 
     private void j03SaveButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j03SaveButtonMouseClicked
@@ -546,20 +568,115 @@ public class Pemilu extends javax.swing.JFrame {
         list.add(j03CountField.getText());
         list.add(j03PersenField.getText());
         dataModel.addRow(list.toArray());
+        j03ProvinceField.setText("");
+        j03CountField.setText("");
+        j03PersenField.setText("");
     }//GEN-LAST:event_j03SaveButtonMouseClicked
 
     private void j01EditButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j01EditButtonMouseClicked
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null, "Silahkan edit secara langsung di Tabel dengan cara klik kolom yang diedit sebanyak 2 kali!");
+        DefaultTableModel data01Model = (DefaultTableModel) jTable01.getModel();
+        if(jTable01.getSelectedRowCount () == 1){
+            
+            String Edit01Province = j01ProvinceField.getText();
+            String Edit01Count = j01CountField.getText();
+            String Edit01Persen = j01PersenField.getText();
+            
+            data01Model.setValueAt(Edit01Province, jTable01.getSelectedRow(), 0);
+            data01Model.setValueAt(Edit01Count, jTable01.getSelectedRow(), 1);
+            data01Model.setValueAt(Edit01Persen, jTable01.getSelectedRow(), 2);
+            JOptionPane.showMessageDialog(this, "Berhasil Edit Data");
+        }else{
+            if(jTable01.getRowCount()==0){
+                JOptionPane.showMessageDialog(this, "Tabel Kosong");
+            } else {
+                JOptionPane.showMessageDialog(this, "Silahkan pilih baris yang akan diedit!");
+            }
+        }
     }//GEN-LAST:event_j01EditButtonMouseClicked
 
     private void j02EditButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j02EditButtonMouseClicked
         // TODO add your handling code here:
+         DefaultTableModel data02Model = (DefaultTableModel) jTable02.getModel();
+        if(jTable02.getSelectedRowCount () == 1){
+            
+            String Edit02Province = j02ProvinceField.getText();
+            String Edit02Count = j02CountField.getText();
+            String Edit02Persen = j02PersenField.getText();
+            
+            data02Model.setValueAt(Edit02Province, jTable02.getSelectedRow(), 0);
+            data02Model.setValueAt(Edit02Count, jTable02.getSelectedRow(), 1);
+            data02Model.setValueAt(Edit02Persen, jTable02.getSelectedRow(), 2);
+            JOptionPane.showMessageDialog(this, "Berhasil Edit Data");
+        }else{
+            if(jTable02.getRowCount()==0){
+                JOptionPane.showMessageDialog(this, "Tabel Kosong");
+            } else {
+                JOptionPane.showMessageDialog(this, "Silahkan pilih baris yang akan diedit!");
+            }
+        }
     }//GEN-LAST:event_j02EditButtonMouseClicked
 
     private void j03EditButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_j03EditButtonMouseClicked
         // TODO add your handling code here:
+        DefaultTableModel data03Model = (DefaultTableModel) jTable03.getModel();
+        if(jTable03.getSelectedRowCount () == 1){
+            
+            String Edit03Province = j03ProvinceField.getText();
+            String Edit03Count = j03CountField.getText();
+            String Edit03Persen = j03PersenField.getText();
+            
+            data03Model.setValueAt(Edit03Province, jTable03.getSelectedRow(), 0);
+            data03Model.setValueAt(Edit03Count, jTable03.getSelectedRow(), 1);
+            data03Model.setValueAt(Edit03Persen, jTable03.getSelectedRow(), 2);
+            JOptionPane.showMessageDialog(this, "Berhasil Edit Data");
+        }else{
+            if(jTable03.getRowCount()==0){
+                JOptionPane.showMessageDialog(this, "Tabel Kosong");
+            } else {
+                JOptionPane.showMessageDialog(this, "Silahkan pilih baris yang akan diedit!");
+            }
+        }
     }//GEN-LAST:event_j03EditButtonMouseClicked
+
+    private void jTable01MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable01MouseClicked
+        // TODO add your handling code here:
+        DefaultTableModel data01Model = (DefaultTableModel) jTable01.getModel();
+        
+        String Province01Row = data01Model.getValueAt(jTable01.getSelectedRow(), 0).toString();
+        String Count01Row = data01Model.getValueAt(jTable01.getSelectedRow(), 1).toString();
+        String Persen01Row = data01Model.getValueAt(jTable01.getSelectedRow(), 2).toString();
+        
+        j01ProvinceField.setText(Province01Row);
+        j01CountField.setText(Count01Row);
+        j01PersenField.setText(Persen01Row);
+    }//GEN-LAST:event_jTable01MouseClicked
+
+    private void jTable02MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable02MouseClicked
+        // TODO add your handling code here:
+        DefaultTableModel data02Model = (DefaultTableModel) jTable02.getModel();
+        
+        String Province02Row = data02Model.getValueAt(jTable02.getSelectedRow(), 0).toString();
+        String Count02Row = data02Model.getValueAt(jTable02.getSelectedRow(), 1).toString();
+        String Persen02Row = data02Model.getValueAt(jTable02.getSelectedRow(), 2).toString();
+        
+        j02ProvinceField.setText(Province02Row);
+        j02CountField.setText(Count02Row);
+        j02PersenField.setText(Persen02Row);
+    }//GEN-LAST:event_jTable02MouseClicked
+
+    private void jTable03MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable03MouseClicked
+        // TODO add your handling code here:
+        DefaultTableModel data03Model = (DefaultTableModel) jTable03.getModel();
+        
+        String Province03Row = data03Model.getValueAt(jTable03.getSelectedRow(), 0).toString();
+        String Count03Row = data03Model.getValueAt(jTable03.getSelectedRow(), 1).toString();
+        String Persen03Row = data03Model.getValueAt(jTable03.getSelectedRow(), 2).toString();
+        
+        j03ProvinceField.setText(Province03Row);
+        j03CountField.setText(Count03Row);
+        j03PersenField.setText(Persen03Row);
+    }//GEN-LAST:event_jTable03MouseClicked
 
     /**
      * @param args the command line arguments
